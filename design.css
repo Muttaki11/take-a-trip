@@ -42,6 +42,7 @@ nav li a{
   text-align: center;
   background-position: center;
   padding:50px 0 50px 0 ;
+  height: 500px;
 }
 .explore-title{
   color: white;
@@ -100,6 +101,12 @@ nav li a{
   margin-top: 80px;
   text-align: center;
 }
+.destination-img{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  row-gap: 20px;
+}
 /* why choose us section */
 .choose-us{
   margin-top: 80px;
@@ -140,7 +147,6 @@ nav li a{
   margin-left: 300px;
   margin-top: 80px;
   display: flex;
-  /* align-items: center; */
   gap: 40px;
 }
 .newsletter{
@@ -218,6 +224,11 @@ footer hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .destination{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .tour-section{
     display: flex;
