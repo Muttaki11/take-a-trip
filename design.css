@@ -78,6 +78,7 @@ nav li a{
   justify-content: space-around;
 }
 .title{
+  margin: 0;
   font-size: 40px;
   font-weight: 800;
 }
@@ -99,23 +100,90 @@ nav li a{
   margin-top: 80px;
   text-align: center;
 }
+/* why choose us section */
 .choose-us{
-  text-align: center;
+  margin-top: 80px;
+}
+.choose-us-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .choose-us img{
   width: 60px;
   height: 60px;
 }
-.choose-us-description{
-  display:flex;
-  flex-wrap: wrap;
+.choose-us-title{
+  text-align: center;
+} 
+.card-title{
+  font-size: 32px;
+  font-weight: 700;
 }
-.hotels{
+#card3{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card1, .card2, .card3{
+  padding: 20px;
+  padding-top: 40px;
   width: 560px;
-  height: 250px;
+  height: 265px;
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
+}
+/* newsletter section */
+.news-section{
+  margin-left: 300px;
+  margin-top: 80px;
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+}
+.newsletter{
+  width: 474px;
+  height: 360px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+}
+#contact{
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  height: 52px;
+  background: rgba(19, 19, 24, 0.05);
+  padding-left: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+#btn-primary{
+  width: 84%;
+  margin-top: 20px;
+}
+.discount{
+  background-image: url(assets/Rectangle\ 8\ \(1\).png);
+  width: 680px;
+  background-repeat: no-repeat;
+}
+.discount-description{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 16px;
+  background: #FF5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  margin-top: 250px;
+  margin-left: 340px;
+  text-align: center;
 }
 /* footer section */
 footer{
@@ -154,5 +222,29 @@ footer hr{
   .tour-section{
     display: flex;
     flex-direction: column;
+  }
+  .choose-us{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .choose-us-description{
+    display: flex;
+    flex-direction: column;
+  }
+  .news-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .discount{
+    width: 535px;
+    height: 500px;
+  }
+  .discount-description{
+    width: 274px;
+    height: 100px;
+    margin-top: 250px;
+    margin-left: 240px;
   }
 }
